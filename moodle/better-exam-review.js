@@ -46,7 +46,7 @@ function fixLink(node) {
 
 addCSS(FIX_DARK_LIGHT_MODE);
 
-if (window.location.indexOf("moodle/mod/quiz/report.php") > 0){
+if (window.location.href.indexOf("moodle/mod/quiz/report.php") > 0){
 	// replace all links in results page
 	document.querySelectorAll(`a[href*='${VIEW_URL}']`).forEach(fixLink);
 	
