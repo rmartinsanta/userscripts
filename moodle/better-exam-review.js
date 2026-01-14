@@ -3,7 +3,7 @@
 // @namespace   raulmart.in
 // @match       *://*/moodle/mod/quiz/*
 // @grant       none
-// @version     1.1.1
+// @version     1.1.2
 // @author      Raúl Martín
 // @description Fix light-dark mode text editors, improve UI when grading 
 // @run-at		document-end
@@ -20,7 +20,7 @@ const FIX_DARK_LIGHT_MODE = `
 	background-color: white !important;
 }
 
-.answer div.qtype_essay_response, body.urjc-darkmode .answer div.qtype_essay_response span, body.urjc-darkmode .answer div.qtype_essay_response p, body.urjc-darkmode .answer div.qtype_essay_response div {
+.answer div.qtype_essay_response, body.urjc-darkmode .answer div.qtype_essay_response * {
 	color: black !important;
 }
 
