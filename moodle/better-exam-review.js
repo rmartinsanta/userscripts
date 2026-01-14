@@ -3,7 +3,7 @@
 // @namespace   raulmart.in
 // @match       *://*/moodle/mod/quiz/*
 // @grant       none
-// @version     1.1
+// @version     1.1.1
 // @author      Raúl Martín
 // @description Fix light-dark mode text editors, improve UI when grading 
 // @run-at		document-end
