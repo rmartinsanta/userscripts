@@ -29,7 +29,7 @@ body.urjc-darkmode .answer div.qtype_essay_response {
 	background-color: black !important;
 }
 
-body.urjc-darkmode .answer div.qtype_essay_response, body.urjc-darkmode .answer div.qtype_essay_response span, body.urjc-darkmode .answer div.qtype_essay_response p, body.urjc-darkmode .answer div.qtype_essay_response div {
+body.urjc-darkmode .answer div.qtype_essay_response, body.urjc-darkmode .answer div.qtype_essay_response * {
 	color: white !important;
 }
 `
